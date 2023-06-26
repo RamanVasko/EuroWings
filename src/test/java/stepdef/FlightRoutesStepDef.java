@@ -10,8 +10,6 @@ import static org.testng.Assert.assertTrue;
 
 public class FlightRoutesStepDef extends Base {
 
-//    FlightStatusPage flightStatusPage;
-
     @Given("Open Flight Routes Page")
     public void OpenFlightRoutesPage() {
         setUp("https://www.eurowings.com/en/information/at-the-airport/flight-status.html");
